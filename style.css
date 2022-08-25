@@ -106,8 +106,8 @@ main #img-perfil{
     display: flex;
 }
 #galeria img{
-    width: 280px;
-    height: 390px;
+    width: 300px;
+    height: 410px;
     margin: 0px;
 }
 #galeria h2{
@@ -118,6 +118,7 @@ footer{
     color: white;
     text-align: center;
     padding: 20px;
+    width: auto;
 }
 footer a{
     text-decoration: none;
