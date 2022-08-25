@@ -80,7 +80,6 @@ main #img-perfil{
     flex-direction: row;
 } */
 #galeria{
-    margin: 0;
     background-color: white;
     color: black;
     display: flex;
@@ -107,8 +106,8 @@ main #img-perfil{
     display: flex;
 }
 #galeria img{
-    width: 300px;
-    height: 410px;
+    width: 280px;
+    height: 390px;
     margin: 0px;
 }
 #galeria h2{
