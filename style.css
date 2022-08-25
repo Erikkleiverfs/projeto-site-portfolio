@@ -13,7 +13,9 @@ body{
     height: 100vh;
 }
 header{
-    display: block;
+    padding-top: 20px;
+    justify-content: center;
+    display: flex;
 }
 header h1{
     /* letter-spacing: 5px; */
@@ -32,9 +34,21 @@ nav{
     padding: 0;
 }
 #menu-h{
+    display: flex;
     background-color: white;
     list-style: none;
     padding: 0;
+}
+#menu-h .logo{
+    margin: 10px;
+    padding: 20px;
+    display: flex;
+    width: auto;
+    height: 170px;
+
+}
+#menu-h im{
+    padding: 20px;
 }
 #menu-h li{
     display: inline;
@@ -52,7 +66,7 @@ nav{
     transition:.4s;
 }
 #menu-h ul{
-    text-align: center;
+    margin: auto 0;
 }
 main{
     height: 1100px;
