@@ -13,7 +13,7 @@ body{
     height: 100vh;
 }
 header{
-    padding-top: 20px;
+    padding-top: 40px;
     justify-content: center;
     display: flex;
 }
@@ -94,6 +94,7 @@ main #img-perfil{
     flex-direction: row;
 } */
 #galeria{
+    padding: 90px auto;
     background-color: white;
     color: black;
     display: flex;
