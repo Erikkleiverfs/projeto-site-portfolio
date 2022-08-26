@@ -9,7 +9,80 @@
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
 }
+body{
+    height: 100vh;
+}
+header{
+    padding-top: 30px;
+    justify-content: center;
+    display: flex;
+}
+header h1{
+    /* letter-spacing: 5px; */
+    padding: 40px;
+    text-align: center;
+    font-family: 'Yomogi', cursive;
+    font-size: 50px;
+    letter-spacing: 5px;
+}
 header h1 a{
     color: black;
     text-decoration: none;
 }
+nav{
+    margin: 0;
+    padding: 0;
+}
+#menu-h{
+    display: flex;
+    background-color: white;
+    list-style: none;
+}
+#menu-h li a:hover{
+    background-color: #f21b2d;
+}
+#menu-h .logo{
+    margin: 10px 40px 10px 0px;
+    padding: 20px 20px 20px 0px;
+    display: flex;
+    width: auto;
+    height: 190px;
+}
+#menu-h img{
+    padding:10px;
+}
+#menu-h li{
+    display: inline;
+}
+#menu-h li a{
+    color: black;
+    padding: 5px 5px;
+    margin: 0px 10px;
+    display: inline-block;
+    text-decoration: none;
+}
+#menu-h li a:hover{
+    color: white;
+    transition:.4s;
+}
+#menu-h ul{
+    margin: auto 0;
+}
+main{
+    background-color: #f21b2d;
+    height: auto;
+    width: 1200px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    width: auto;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+}
+
