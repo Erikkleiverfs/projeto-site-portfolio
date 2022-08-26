@@ -39,7 +39,7 @@ nav{
     list-style: none;
 }
 #menu-h li a:hover{
-    background-color: #f21b2d;
+    background-color: #142D4C;
 }
 #menu-h .logo{
     margin: 10px 40px 10px 0px;
@@ -63,7 +63,7 @@ nav{
 }
 #menu-h li a:hover{
     color: white;
-    transition:.4s;
+    transition:.5s;
 }
 #menu-h ul{
     margin: auto 0;
@@ -75,7 +75,7 @@ main{
 }
 
 footer{
-    background-color: black;
+    background-color: #142D4C;
     color: white;
     text-align: center;
     padding: 20px;
