@@ -11,6 +11,8 @@
 }
 body{
     height: 100vh;
+    width: 100vw;
+    color: black;
 }
 header{
     padding-top: 30px;
@@ -38,9 +40,6 @@ nav{
     background-color: white;
     list-style: none;
 }
-#menu-h li a:hover{
-    background-color: #f21b2d;
-}
 #menu-h .logo{
     margin: 10px 40px 10px 0px;
     padding: 20px 20px 20px 0px;
@@ -48,7 +47,7 @@ nav{
     width: auto;
     height: 190px;
 }
-#menu-h im{
+#menu-h img{
     padding: 20px;
 }
 #menu-h li{
@@ -70,22 +69,34 @@ nav{
     margin: auto 0;
 }
 main{
+    margin-top: 40px;
     height: 1100px;
     width: 1200px;
 }
 #minibio{
+    padding: 20px;
+    display: flex;
     background-color: white;
     width: 1200px;
     height: auto;
 }
-/* #minibio p{
-    padding-right: 110px;
-} */
+ #minibio p{
+    text-indent: 20px;
+    text-align: justify;
+    width: 85%;
+} 
 
-main #img-perfil{
-    width: 30%;
-    height: 20%;
-    padding: 10px;
+#minibio img{
+    width: 300px;
+    margin-left: 70px;
+    border-radius: 50%;
+
+}
+#minibio > .imagem-minibio{
+    
+}
+#minibio > .texto-minibio{
+    
 }
 /* main p{
     padding: 5px;
@@ -94,39 +105,33 @@ main #img-perfil{
     display: flex;
     flex-direction: row;
 } */
-#galeria{
+#links{
     padding: 90px auto;
     background-color: white;
     color: black;
     display: flex;
     justify-content: center;
-    flex-direction: column;
+    flex-direction: row;
 }
-#galeria .img-sessao1{
+#links > .link-1, .link-2, .link-3{
     display: flex;
     justify-content: space-between;
     padding: 40px;
 }
-#galeria .img-sessao2{
-    display: flex;
-    justify-content: space-between;
-    padding: 40px;
-}
-#galeria img{
-    border: 0,8px solid rgb(110, 109, 109);
-}
-.sessao-1{
-    display: flex;
-}
-.sessao-2{
-    display: flex;
-}
-#galeria img{
+#links img{
+    border-radius: 3px;
     width: 300px;
     height: 410px;
     margin: 0px;
 }
-#galeria h2{
+#links img:hover{
+    border-radius: 3px;
+    box-shadow: 5px 4px 6px rgba(0, 0, 0, 0.534);
+    border: 1px solid #0000002f;
+    box-sizing: border-box;
+    transform: ;
+}
+#links h2{
     font-size: 20px;   
 }
 footer{
