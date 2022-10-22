@@ -71,9 +71,39 @@ menu ul li a:hover{
 }
 
 main{
-    width: auto;
+    width: 80vw;
     background-color: white;
-    height: auto;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 20vh 70vh 10vh;
+    grid-template-areas: "img1 img1"
+    "img2" "img3 img3";
+    
+    justify-content: space-around;
+    align-content: center;
+}
+
+.img1{
+    grid-area: img1;
+}
+
+.img2{
+    grid-area: img2;
+}
+
+.img3{
+    grid-area: img3;
+}
+
+.container > div{
+    background: #7159c1;    
+}
+
+.container img{
+    width: 70%;
 }
 
 /* .container-galeria{
@@ -103,7 +133,7 @@ main{
     font-size: 16px;
 } */
 
-#galeria{
+/* #galeria{
     width: auto;
     display: flex;
     justify-content: space-around;   
@@ -112,7 +142,7 @@ main{
 
 #galeria img{
     width: 400px;
-}
+} */
 
 footer{
     width: auto;
