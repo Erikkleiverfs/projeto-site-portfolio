@@ -32,6 +32,7 @@ font-family: 'Montserrat', sans-serif;
 }
 
 body{
+    width: auto;
     background-color: gray;
     font-family: 'Work Sans', sans-serif;
 }
@@ -43,7 +44,6 @@ header{
     align-items: center;
     justify-content: space-around;
     background-color: white;
-    width: 100vw;
     height: 140px;
 }
 
@@ -60,6 +60,7 @@ menu ul li a{
     text-decoration: none;
     color: black;
     padding: 4px;
+    font-size: 1.1em;
 }
 
 menu ul li a:hover{
@@ -70,12 +71,13 @@ menu ul li a:hover{
 }
 
 main{
+    width: auto;
     background-color: white;
-    width: 100vw;
     height: auto;
 }
 
 #galeria{
+    width: auto;
     display: flex;
     justify-content: space-around;   
     padding: 60px; 
@@ -86,8 +88,13 @@ main{
 }
 
 footer{
-    width: 100vw;
+    width: auto;
     height: 40px;
     background-color: white;
     display: flex;
+}
+
+footer a{
+    text-decoration: none;
+    color: black;
 }
