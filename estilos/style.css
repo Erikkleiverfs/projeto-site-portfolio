@@ -79,8 +79,10 @@ main{
 
 .container{
     background-color:white;
-    display: flex;
+    display: grid;
     margin: auto;
+    grid-template-columns: 200px 200px 200px;
+    
 }
 
 .container > div{
@@ -152,6 +154,37 @@ main{
 .img-sobre img{
     width: 20rem;
 }
+
+.container-galeria-desenhos{
+    background-color:white;
+    display: grid;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    width: 80vw;
+}
+
+.container-galeria-desenhos img{
+    width: 350px;
+    height: auto;
+}
+
+.container-galeria .h1-galeria{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+    padding: 30px 0px 8px 0px;
+    font-size: 1.7rem;
+}
+
+.container-galeria .h2-galeria{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    padding: 0px 0px 8px 0px;
+    font-size: 1.2rem;
+}
+
+
+
 
 
 
