@@ -54,7 +54,6 @@ header{
     background-color: white;
     width: 100%;
     height: 100px;
-    border-bottom: 3px solid rgba(0, 0, 0, 0.171);
 }
 
 header img{
@@ -64,6 +63,7 @@ header img{
 @media (max-width: 700px){
     header{
         flex-direction: column;
+       
     }
 
     header img{
@@ -113,22 +113,28 @@ main{
 }
 
 .container-home{
-    background-color:white;
+    background-color:rgb(255, 255, 255);
     display: flex;
     margin: auto;
-    background-color: white;
-    background-size: 57rem ;
-    background-position: center;
-    height: 497px;
+    width: 100%;
     width: 100vw;
-}
-
-.container-home > div{
-    background: #7159c1;    
+    
 }
 
 .container-home img{
-    width: 10rem;
+    width: 339px;   
+    display: flex;
+}
+
+@media (max-width: 700px){
+    .container-home{
+        flex-direction: column;
+        margin-bottom: 10px;
+    }
+
+    .container-home img{
+        margin-bottom: 20px;
+    }
 }
 
 .container-textos{
@@ -213,14 +219,14 @@ main{
 }
 
 .container-galeria .h1-galeria{
-    font-family: 'Quicksand', sans-serif;
-    font-weight: 400;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 300;
     padding: 30px 0px 8px 0px;
     font-size: 1.7rem;
 }
 
 .container-galeria .h2-galeria{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: 300;
     padding: 0px 0px 8px 0px;
     font-size: 1.2rem;
@@ -278,7 +284,6 @@ footer{
     align-items: center;
     flex-direction: row;
     justify-content: center;
-    border-top: 3px solid rgba(0, 0, 0, 0.171);
     padding: 10px;
     font-size: 0.9rem;
 }
