@@ -108,22 +108,19 @@ menu ul li a:hover{
 
 main{
     background-color: white;
-    height: auto;
     display: flex;
+    margin: auto;
 }
 
 .container-home{
     background-color:rgb(255, 255, 255);
     display: flex;
+    justify-items: center;
     margin: auto;
-    width: 100%;
-    width: 100vw;
-    
 }
 
 .container-home img{
     width: 339px;   
-    display: flex;
 }
 
 @media (max-width: 700px){
@@ -183,8 +180,7 @@ main{
     width: 70vw;
     height: 497px;
     display: flex;
-    align-items: center;
-    
+    align-items: center;  
 }
 
 /* .container-sobre h1{
